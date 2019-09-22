@@ -14,22 +14,9 @@ public class Decrypt {
 		System.out.println("You entered: " + userNum);
 		
 		a = (userNum / 1000) % 10;
-		// System.out.println("a = " + a);
 		b = (userNum / 100) % 10;
-		// System.out.println("b = " + b);
 		c = (userNum / 10) % 10;
-		// System.out.println("c = " + c);
 		d = userNum % 10;
-		// System.out.println("d = " + d);
-		
-		// a = a;
-		// System.out.println("a encrypted is: " + a);
-		// b = b;
-		// System.out.println("b encrypted is: " + b);
-		// c = c;
-		// System.out.println("c encrypted is: " + c);
-		// d = d;
-		// System.out.println("d encrypted is: " + d);
 		
 		temp1 = a;
 		temp2 = b;
@@ -46,7 +33,7 @@ public class Decrypt {
 		c = (c + 3) % 10;
 		d = (d + 3) % 10;
 		
-		System.out.println("The encrypted integer is: " + a + b + c + d);
+		System.out.println("The decrypted integer is: " + a + b + c + d);
 	}
 
 }

@@ -14,13 +14,9 @@ public class Encrypt {
 		System.out.println("You entered: " + userNum);
 		
 		a = (userNum / 1000) % 10;
-		// System.out.println("a = " + a);
 		b = (userNum / 100) % 10;
-		// System.out.println("b = " + b);
 		c = (userNum / 10) % 10;
-		// System.out.println("c = " + c);
 		d = userNum % 10;
-		// System.out.println("d = " + d);
 		
 		a = (a + 7) % 10;
 		b = (b + 7) % 10;
@@ -39,5 +35,4 @@ public class Encrypt {
 		
 		System.out.println("The encrypted integer is: " + a + b + c + d);
 	}
-
 }
